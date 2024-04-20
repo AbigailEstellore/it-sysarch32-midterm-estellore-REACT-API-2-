@@ -10,6 +10,8 @@ const userRoutes = require('./api/routes/user');
       
 mongoose.connect("mongodb+srv://estelloreabigail91:MOCHIlami_25@node-rest-shop.wlg5nqf.mongodb.net/");
 
+
+
 mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
